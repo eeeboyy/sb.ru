@@ -1,0 +1,134 @@
+body {
+margin: 0; /* Убираем отступы */
+height: 100%; /* Высота страницы */
+background: url(fon.png) no-repeat; /* Параметры фона */
+background-position: center center;
+}
+.h1 {
+text-align: center;
+position: absolute;
+margin-top: 1vh;
+margin-bottom: 2vh;
+height: 2vh;
+width: 100vw;
+overflow: auto;
+}
+.scaled {
+background-size: cover;
+background-attachment: fixed;
+font-size: 1.1em;
+align-items: center;
+justify-content: center;
+}
+#input {
+display: flex;
+flex-grow: 3;
+flex-shrink: 3;
+position: absolute;
+text-align: center;
+top: 5vh;
+left: 35vw;
+height: 3vh;
+width: 17vw;
+background-color: #4577D4;
+border-radius: 2vh;
+border-color: #4577D4;
+}
+#start{
+display: flex;
+flex-grow: 3;
+flex-shrink: 3;
+position: absolute;
+top: 6vh;
+left: 53vw;
+height: 2vh;
+width: 3vw;
+background-color: #4A60D7;
+border-radius: 2vh;
+border-color: #4A60D7;
+}
+#noname {
+display: flex;
+flex-grow: 3;
+flex-shrink: 3;
+flex-basis: 100;
+position: absolute;
+top: 12vh;
+left: 60.1vw;
+width: 33vw;
+height: 27vh;
+}
+#info {
+display: flex;
+flex-grow: 3;
+flex-shrink: 3;
+position: relative;
+width: 90.5vw;
+height: 85vh;
+top: 11vh;
+left: 3vw;
+}
+.grad {
+position: absolute;
+width: 10vw;
+height: 3vh;
+border-radius: 2vh;
+border-color: #4577D4;
+z-index: 2;
+text-align: center;
+overflow: auto;
+}
+#keyboard {
+top: 10vh;
+left: 10vw;
+overflow: auto;
+}
+#oper {
+top: 33vh;
+left: 8vw;
+overflow: auto;
+}
+#processor {
+top: 59vh;
+left: 9vw;
+overflow: auto;
+}
+#video {
+top: 62vh;
+left: 60vw;
+overflow: auto;
+}
+#monitor {
+top: 8vh;
+left: 60vw;
+overflow: auto;
+}
+.canvas {
+position: absolute;
+-webkit-transform: translateZ(0);
+-o-transform: translateZ(0);
+transform: translateZ(0);
+width: 5vw;
+height: 8vh;
+}
+#canvas {
+position: absolute;
+-webkit-transform: translateZ(0);
+-o-transform: translateZ(0);
+transform: translateZ(0);
+width: 5vw;
+height: 8vh;
+top: 5vh;
+left: 20vw;
+}
+#ridik {
+top: 5vh;
+left: 20vw;}
+#canvas2 {
+position: absolute;
+z-index: 67;
+width: 33.3vw;
+height: 28vh;
+top: 12vh;
+left: 60.1vw;	
+}	
